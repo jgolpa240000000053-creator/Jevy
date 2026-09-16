@@ -19,11 +19,11 @@ network:
         - id: 20
           name: Servers
 
-firewalls:
-  - name: fw-01
-    ip: 192.168.1.20
-    os: Palo Alto
-    zones:
-      - trust
-      - untrust
-      - dmz
+  firewalls:
+    - name: fw-01
+      ip: 192.168.1.20
+      os: Palo Alto
+      zones:
+        - trust
+        - untrust
+        - dmz
