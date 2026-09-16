@@ -22,7 +22,7 @@ print(f"IP: {router['ip']}")
 if 'interfaces' in router:
     print("Interfaces:")
     for iface in router['interfaces']['interface']:
-    print(f" - {iface['@name']}: {iface['ip']}")
+        print(f" - {iface['@name']}: {iface['ip']}")
 
 
 print("-" * 50)
